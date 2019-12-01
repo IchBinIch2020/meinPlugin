@@ -1,0 +1,19 @@
+{
+    "name": "meinPlugin/meinHook",
+    "description": "a plugin for hook in tp5",
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "ichbinich"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">= 7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "meinPlugin\\meinHook": "src/meinHook"
+        }
+    }
+}
